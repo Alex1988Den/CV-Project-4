@@ -34,3 +34,49 @@ You can install the required dependencies using the following command:
 
 ```bash
 pip install -r requirements.txt
+
+
+📦 Installation
+
+Follow these steps to set up the project locally:
+1️⃣ Clone the Repository
+
+git clone https://github.com/yourusername/style-transfer-project.git
+
+2️⃣ Navigate to the Project Directory
+
+cd style-transfer-project
+
+3️⃣ Install Dependencies
+
+pip install -r requirements.txt
+
+4️⃣ Run the Flask Application
+
+python app.py
+
+5️⃣ Access the Application
+
+After starting the application, open your browser and navigate to:
+
+http://127.0.0.1:5000/
+
+🚀 Deployment
+
+The application is already deployed on Render, but you can also deploy it to other platforms like Heroku or PythonAnywhere.
+Render Deployment
+
+    Sign up at Render.
+    Create a new Web Service.
+    Link your GitHub repository and deploy the application.
+    Use the URL provided by Render to access your app.
+
+Example Render Configuration:
+
+    Runtime: Python 3.x
+    Build Command: pip install -r requirements.txt
+    Start Command: python app.py
+
+📜 License
+
+This project is licensed under the MIT License.
