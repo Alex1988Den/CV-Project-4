@@ -110,3 +110,7 @@ def transfer():
 if __name__ == "__main__":
     port = int(os.getenv("PORT", 5000))  # Использует порт, предоставленный Render
     app.run(host="0.0.0.0", port=port)  # Слушаем на всех интерфейсах
+
+if __name__ == "__main__":
+    port = int(os.getenv("PORT", 5000))  # Использует порт, предоставленный Render
+    app.run(host="0.0.0.0", port=port)  # Слушаем на всех интерфейсах
